@@ -1,7 +1,6 @@
 import { Navbar } from "@/components/finalNavbar";
-import FatLossMeals from "@/components/smart";
-import SubscriptionGrid from "@/components/subscription";
-import Meals from "@/components/viewsmart";
+import Planss from "@/components/gpsmart";
+
 
 export default function SmartPlan()
 {
@@ -12,7 +11,7 @@ export default function SmartPlan()
                 
                             {/* Main Content */}
                             <main>
-                          <Meals/>
+                          <Planss/>
                             </main>
                         </div>
 

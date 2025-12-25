@@ -1,5 +1,7 @@
+"use client"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
+import { useRouter } from "next/navigation"
 
 const subscriptionPlans = [
     {
@@ -62,15 +64,16 @@ const subscriptionPlans = [
         price: 299,
         img: "/vegetable.png",
     },
-    {
-        title: "Immunity Meals",
-        description: ["Everyday nutrition", "Portion controlled", "Fresh cooked meals"],
-        price: 299,
-        img: "/vegetable.png",
-    },
+    
 ]
 
 export default function SubscriptionGrid() {
+
+    const route = useRouter()
+
+    const changePage: any = () => {
+        route.push("/smartPlans")
+    }
     return (
         <main className="px-4 md:px-8 lg:px-16 py-10">
             <h2 className="text-xl md:text-2xl font-bold text-orange-500 mb-6">Subscription Home Cooked</h2>
@@ -89,7 +92,7 @@ export default function SubscriptionGrid() {
                                 ))}
                             </ul>
                             <p className="text-sm font-medium">Starting at Rs. {plan.price}</p>
-                            <Button className="w-full bg-orange-500 hover:bg-orange-600">View Details</Button>
+                            <Button onClick={changePage} className="w-full bg-orange-500 hover:bg-orange-600">View Details</Button>
                         </CardContent>
                     </Card>
                 ))}
