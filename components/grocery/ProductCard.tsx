@@ -14,7 +14,7 @@ export default function ProductCard() {
                     height={150}
                     className="rounded-lg"
                 />
-                <Heart className="absolute top-2 right-2 w-5 h-5 text-gray-500" />
+                <Heart className="absolute top-3 right-3 h-5 w-5 text-white bg-black/40 p-1 rounded-full cursor-pointer hover:text-red-500 transition" />
             </div>
 
             <div className="mt-3 space-y-1">

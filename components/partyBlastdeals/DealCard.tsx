@@ -29,7 +29,7 @@ export default function DealCard({
                 />
 
                 {/* Dark gradient overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent" />
 
                 {/* Rating badge */}
                 <div className="absolute top-3 right-3 flex items-center gap-1 rounded-full bg-orange-500 px-2 py-1 text-xs font-semibold text-white">

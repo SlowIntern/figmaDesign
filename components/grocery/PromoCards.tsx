@@ -16,7 +16,7 @@ const cards = [
     },
     {
         title: "Pay Less, Get More",
-        desc: "Quality groceries at the lowest cost",
+        desc: "Quality groceries at the lowest cost available",
         bg: "bg-green-700",
         image: "/fm3.png",
     },
