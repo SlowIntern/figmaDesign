@@ -8,7 +8,7 @@ export function Navbar() {
                 {/* Center Menu */}
                 <nav className="absolute left-1/2 -translate-x-1/2 flex gap-8 text-sm text-gray-500">
                     <Link className="hover:text-orange-400" href={"#"}>Food Delivery</Link>
-                    <Link className="hover:text-orange-400" href="#">Deals</Link>
+                    <Link href={"/deals"}  className="hover:text-orange-400" >Deals</Link>
                     <Link href={"/party"} className="hover:text-orange-400">
                         Party Blast
                     </Link>

@@ -15,7 +15,7 @@ export default function Planss() {
 
             <Card className="overflow-hidden rounded-xl">
                 {/* IMAGE HEADER */}
-                <div className="relative h-[260px] w-full">
+                <div className="relative h-65 w-full">
                     <Image
                         src="/vegetable.png"
                         alt="Fat Loss Meals"
