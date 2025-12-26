@@ -20,6 +20,7 @@ const cards = [
         bg: "bg-green-700",
         image: "/fm3.png",
     },
+    
 ]
 
 export default function PromoCards() {
