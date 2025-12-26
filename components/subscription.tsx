@@ -87,7 +87,7 @@ export default function SubscriptionGrid() {
                                 <CardTitle className="text-orange-500 text-lg">{plan.title}</CardTitle>
                             </CardHeader>
                             <ul className="list-disc list-inside text-gray-700 text-sm space-y-1">
-                                {plan.description.map((item, idx) => (
+                                {plan.description.map((item, idx:number) => (
                                     <li key={idx}>{item}</li>
                                 ))}
                             </ul>
